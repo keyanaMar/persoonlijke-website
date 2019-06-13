@@ -1,0 +1,327 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html,
+#bodyhome{
+	background-image: url("../pictures/palm01.jpg");
+	animation: bodyhome 2.5s;
+}
+#HOMEhome {
+	font-size: 25px;
+	font-family: 'Lemon/Milk';
+	background-image: linear-gradient(to right, pink, purple);
+	width: 5%;
+	color: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#CONTACThome {
+	font-size: 25px;
+	font-family: 'Lemon/Milk';
+	background-image: linear-gradient(to right, pink, purple);
+	width: 6.2%;
+	color: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-left: 205px;
+	margin-top: -30px;
+}
+#ABOUThome {
+	font-size: 25px;
+	font-family: 'Lemon/Milk';
+	background-image: linear-gradient(to right, pink, purple);
+	width: 5.8%;
+	color: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-left: 95px;
+	margin-top: -30px;
+}
+#PORTFOLIOhome {
+	font-size: 25px;
+	font-family: 'Lemon/Milk';
+	background-image: linear-gradient(to right, pink, purple);
+	width: 8.5%;
+	color: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-left: 350px;
+	margin-top: -29px;
+}
+.MYPHOTOhome {
+
+	margin-left: 50px;
+	margin-top: 175px;
+	animation: MYPHOTO 2s;
+	position: absolute;
+}
+#Whome {
+	text-align: center;
+	font-family: bebas;
+	color: white;
+	font-size: 100px;
+	margin-left: 550px;
+	margin-top: 150px;
+
+}
+#W2home {
+	text-align: center;
+	font-family: CaviarDreams;
+	color: white;
+	font-size: 50px;
+	margin-left: 550px;
+}
+#WALLhome{
+	margin-top: -100px;
+}
+.LOGO {
+	border-radius: 100%;
+	margin-left: 1700px;
+	margin-top: -24px;
+}
+@keyframes bodyhome{
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+@font-face {
+	font-family: bebas;
+	src: url(../fonts/Bebas-Regular.ttf);
+}
+@font-face {
+	font-family: CaviarDreams;
+	src: url(../fonts/CaviarDreams.ttf);
+}
+@font-face {
+	font-family: Marvelous-Sans-Demo;
+	src: url(../fonts/Marvelous-Sans-Demo.otf);
+}
+#bodyabout {
+	background-image: url("../pictures/palm01.jpg");
+	animation: bodyabout 2.5s;
+}
+#HOMEabout {
+	font-size: 25px;
+	font-family: 'Lemon/Milk';
+	background-image: linear-gradient(to right, pink, purple);
+	width: 4%;
+	color: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#CONTACTabout {
+	font-size: 25px;
+	font-family: 'Lemon/Milk';
+	background-image: linear-gradient(to right, pink, purple);
+	width: 6.2%;
+	color: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-left: 205px;
+	margin-top: -30px;
+}
+#ABOUTabout {
+	font-size: 25px;
+	font-family: 'Lemon/Milk';
+	background-image: linear-gradient(to right, pink, purple);
+	width: 4.8%;
+	color: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-left: 95px;
+	margin-top: -30px;
+}
+#PORTFOLIOabout {
+	font-size: 25px;
+	font-family: 'Lemon/Milk';
+	background-image: linear-gradient(to right, pink, purple);
+	width: 8.5%;
+	color: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-left: 350px;
+	margin-top: -29px;
+}
+.MYPHOTOabout {
+	margin-left: 50px;
+	border-radius: 20px;
+	animation: myphotoaboutronaldo 2.5s;
+}
+#BIO1 {
+	margin-left: 350px;
+	margin-top: -500px;
+	color: white;
+	font-family: ModernSans-Light;
+	font-size: 40px;
+	text-align: left;
+}
+#BIO2 {
+	margin-top: 150px;
+	font-size: 40px;
+	margin-left: 350px;
+	text-align: center;
+	font-family: ModernSans-Light;
+	color: white;
+}
+.MYPHOTOabout2 {
+	margin-left: 1200px;
+	margin-bottom: 300px;
+	border-radius: 50px;
+}
+@keyframes bodyabout{
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+@font-face {
+	font-family: ModernSans-Light;
+	src: url(../fonts/ModernSans-Light.otf);
+}
+#bodycontact {
+	background-image: url(../pictures/nature03.jpg);
+}
+#HOMEcontact {
+	font-size: 25px;
+	font-family: 'Lemon/Milk';
+	background-image: linear-gradient(to right, pink, purple);
+	width: 4%;
+	color: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#CONTACTcontact {
+	font-size: 25px;
+	font-family: 'Lemon/Milk';
+	background-image: linear-gradient(to right, pink, purple);
+	width: 6.2%;
+	color: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-left: 205px;
+	margin-top: -30px;
+}
+#ABOUTcontact {
+	font-size: 25px;
+	font-family: 'Lemon/Milk';
+	background-image: linear-gradient(to right, pink, purple);
+	width: 4.8%;
+	color: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-left: 95px;
+	margin-top: -30px;
+}
+#PORTFOLIOcontact {
+	font-size: 25px;
+	font-family: 'Lemon/Milk';
+	background-image: linear-gradient(to right, pink, purple);
+	width: 8.5%;
+	color: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-left: 350px;
+	margin-top: -29px;
+}
+
+#contacttext{
+	font-size: 25px;
+	font-family: Marvelous-Sans-Demo;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+
+}
+
+@font-face {
+	font-family: aliens and cows_trail;
+	src: url(../fonts/aliens and cows_trail.ttf);
+}
+#bodycontact {
+	animation: bodycontact 2.5s;
+}
+@keyframes bodycontact {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+#bodyportfolio {
+	animation: bodyportfolio 2.5s;
+	background-image: url(../pictures/palm01.jpg);
+}
+#HOMEportfolio {
+	font-size: 25px;
+	font-family: 'Lemon/Milk';
+	background-image: linear-gradient(to right, pink, purple);
+	width: 4%;
+	color: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#CONTACTportfolio {
+	font-size: 25px;
+	font-family: 'Lemon/Milk';
+	background-image: linear-gradient(to right, pink, purple);
+	width: 6.2%;
+	color: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-left: 205px;
+	margin-top: -30px;
+}
+#ABOUTportfolio {
+	font-size: 25px;
+	font-family: 'Lemon/Milk';
+	background-image: linear-gradient(to right, pink, purple);
+	width: 4.8%;
+	color: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-left: 95px;
+	margin-top: -30px;
+}
+#PORTFOLIOportfolio {
+	font-size: 25px;
+	font-family: 'Lemon/Milk';
+	background-image: linear-gradient(to right, pink, purple);
+	width: 8.5%;
+	color: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-left: 350px;
+	margin-top: -29px;
+}
+#socialmedia {
+	margin-top: 150px;
+	margin-left: 550px;
+}
+.contactco {
+    text-align: center;
+	font-family: CaviarDreams;
+	color: white;
+	font-size: 50px;
+	margin-top: 100px;
+}
+.knipsel {
+position:absolute;
+top:280px;
+left:250px;
+
+}
+.knipsel2 {
+  position: absolute;
+    top: 280px;
+    left:900px;
+}

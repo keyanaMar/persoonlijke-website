@@ -1,0 +1,341 @@
+html, body {
+height: 100%;
+margin: 0;
+overflow: hidden;
+}
+
+
+.water {
+  height: 125px;
+  width: 800px;
+  background-color: blue;
+  border-radius: 50%;
+  margin-top: 165px;
+  margin-left: -400px;
+  position: absolute;
+  z-index: 4;
+}
+
+.sun {
+display:inline-block;
+border-radius:50%;
+height:200px;
+width:200px;
+background:orange;
+box-shadow: 0 0 10px orange,
+              0 0 60px orange,
+              0 0 200px yellow,
+              inset 0 0 80px yellow;
+z-index:3;
+bottom: 550px;
+left: 1270px;
+position: absolute;
+animation: 112s memove infinite;
+}
+@keyframes memove {
+	from {
+		top: 0px;
+		left:20px;
+	}
+	to {
+		left: 1250px;
+		top:600px;
+
+	}
+
+}
+
+
+.weg{
+      height: 19px;
+     background: #827a7a;
+     width: 150%;
+	 align-items: center;
+     border-top: 10px solid #756d6d;
+     border-bottom: 10px solid #756d6d;
+	 position: absolute;
+     top: 635px;
+     z-index:4;
+
+}
+
+.rails {
+	margin-left: 15px;
+	height: 10px;
+	width: 125%;
+	margin-top: 279px;
+
+	border-top: 14px dashed black;
+	position: absolute;
+	z-index:4;
+
+}
+
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.workspace {
+  position: absolute;
+  margin: 50px auto;
+  width: 50%;
+  height: 185px;
+
+  }
+
+.leftbox {
+  position: absolute;
+  top: 200px;
+  left: 120px;
+  width: 220px;
+  height: 130px;
+  background:#b2b572;
+  border:solid;
+  border-width: 5px;
+}
+.wheel-rec-1 {
+  position: absolute;
+  top: 130px;
+  left: 25px;
+  width: 95px;
+  height:18px;
+  background:gray;
+  border:solid;
+}
+.wheel-rec-2 {
+  position: absolute;
+  top: 106px;
+  left: 85px;
+  width: 95px;
+  height:18px;
+  background:gray;
+  border:solid;
+
+}
+.rightbox {
+  position: absolute;
+  top: 80px;
+  left: 340px;
+  width: 120px;
+  height: 250px;
+  background:#b2b572;
+  border:solid;
+  border-width: 5px;
+}
+
+.window {
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  width: 100px;
+  height: 85px;
+  background:white;
+  border:solid;
+  border-width: 5px;
+}
+.roof {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 150px;
+  height: 20px;
+  background:black;
+  border:solid;
+  border-width: 5px;
+}
+.big-circle {
+  position: absolute;
+  top: 190px;
+  left: 10px;
+  width: 80px;
+  height: 90px;
+  border-radius: 50%;
+  background:gray;
+  border:solid;
+  border-width: 10px;
+}
+.small-circle-front {
+  position: absolute;
+  top: 95px;
+  left: 25px;
+  width: 50px;
+  height: 60px;
+  border-radius: 50%;
+  background:gray;
+  border:solid;
+  border-width: 10px;
+}
+.small-circle-rear {
+  position: absolute;
+  top: 95px;
+  right: 35px;
+  width: 50px;
+  height: 60px;
+  border-radius: 50%;
+  background:gray;
+  border:solid;
+  border-width: 10px;
+}
+.semi-circle-front {
+    position: absolute;
+	top: 200px;
+	 left: 105px;
+	 width: 30px;
+	  height: 90px;
+	  border-radius: 50%;
+	  border:solid;
+
+  	border-width: 15px;
+}
+.arrow-down {
+	position: absolute;
+	top: -150px;
+    left: 3px;
+	width: 60;
+	height: 10;
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	border-top: 150px solid;
+}
+
+.arrow-left {
+	position: absolute;
+	top: 75px;
+	left: -60px;
+	width: 0;
+	height: 20;
+	border-top: 60px solid transparent;
+	border-bottom: 2px solid transparent;
+
+	border-right:60px solid black;
+}
+.arrow-left-in {
+	position: absolute;
+	top: -40px;
+	left: 16px;
+	width: 0;
+	height:15;
+	border-top: 34px solid transparent;
+	border-bottom: 1px solid transparent;
+	border-right:35px solid gray;
+}
+.pipe {
+  position: absolute;
+  top: -130px;
+  left: 20px;
+  width: 25px;
+  height: 130px;
+  background:#b2b572;
+  border:solid;
+  border-width: 5px;
+}
+
+.trein {
+	top:228px; left:850px;
+	position: absolute;
+
+	animation: 11s mymove infinite;
+	z-index:160;
+}
+@keyframes mymove {
+	from {right: 0px}
+	to {left: 195px}
+
+}
+
+.background {
+  width: 150%;
+
+
+  background: -webkit-linear-gradient(45deg, #ffffff 0%,#32ff4a 55%);
+  height: 300px;
+  position: absolute;
+  bottom: 0px;
+  z-index:3;
+
+  }
+
+.background2 {
+  width: 150%;
+  height: 70%;
+  background: -webkit-linear-gradient(45deg, #ffffff 0%,#2989d8 99%);
+  align-items: center;
+  position: absolute;
+  top: -8px;
+  z-index: 2;
+
+}
+
+.fish {
+ width: 150px;
+ height: 100px;
+z-index: 105;
+animation: 11s imove infinite;
+
+}
+
+@keyframes imove {
+	from {right: 0px}
+	to {left: 500px}
+
+}
+
+
+
+
+.fish-body {
+ position: absolute;
+ top: 500px;
+ left: 230px;
+ background: linear-gradient(to right, #eaed47 0%,#ff7b0d 100%);
+ border-radius: 50%;
+ width: 150px;
+ height: 75px;
+}
+
+.eye {
+ position: absolute;
+ margin-left: 100px;
+ margin-top: 20px;
+ z-index: 1;
+ background-color: white;
+ border-radius: 50%;
+ width: 20px;
+ height: 20px;
+}
+
+.pupil {
+ position: absolute;
+ z-index: 2;
+ margin-left: 5px;
+ margin-top: 5px;
+ background-color: black;
+ border-radius: 50%;
+ height: 10px;
+ width: 10px;
+}
+
+.fin {
+ margin-top: 165px;
+margin-left: -525px;
+background: linear-gradient(to right, #eaed47 0%,#ff7b0d 100%);
+ border-radius: 50%;
+ transform: rotate(40deg);
+ width: 80px;
+ height: 50px;
+}
+
+.fin-bottom {
+ margin-top: -10px;
+ transform: rotate(-40deg);
+}
+
+
+
